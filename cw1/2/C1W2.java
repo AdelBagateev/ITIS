@@ -1,5 +1,5 @@
 import java.util.*;
-public class C2W2{
+public class C1W2{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt(), maxi = -999999, c = 0, c_final = 0;

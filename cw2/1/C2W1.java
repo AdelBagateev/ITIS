@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class C1W1 {
+public class C2W1 {
     // Решение задачи 1 следует писать здесь
     public static int getI(int k, int m, int n) {
       return k;

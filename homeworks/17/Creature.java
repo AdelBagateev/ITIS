@@ -28,13 +28,13 @@ public class Creature{
 		other.setHp(otherHp);
 		System.out.println(name + " attacks " + other.getName()+": " + other.getHp()+" left");
 	}
-	interface IMiner{
+}
+interface IMiner{
 	    void mine();
-	}
-	interface IMagic{
-		void spell();
-	}
-	interface IRider{
-		void ride();
-	}
+}
+interface IMagic{
+	void spell();
+}
+interface IRider{
+	void ride();
 }

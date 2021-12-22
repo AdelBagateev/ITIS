@@ -17,12 +17,13 @@ public class Truck extends Car {
 		if (mass <= maxMass) {
 			try {
 				move(50);
+				System.out.println("Move cargo " + mass + " kg");
 			} catch (WrongWheelsException wwe) {
 				System.out.println(wwe);
 			} catch (InsufficientPowerException ipe) {
 				System.out.println(ipe);
 			}
-			System.out.println("Move cargo " + mass + " kg");
+			
 		} else {
 			throw new MaxMassException();
 		}

@@ -21,8 +21,7 @@ public class Passenger extends Car {
 		} catch (InsufficientPowerException ipe) {
 			System.out.println(ipe);
 		}
-		System.out.println("Move " + count + " humans at " +
-			vel + " km/h");
+		
 	}
 
 }

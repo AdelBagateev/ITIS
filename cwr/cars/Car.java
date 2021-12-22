@@ -25,7 +25,7 @@ public class Car {
 		}
 	}
 
-	public void move(int velocity)
+	public final void move(int velocity)
 		throws WrongWheelsException, InsufficientPowerException
 	{
 		for (int c = 0; c < wheels.length; c++) {

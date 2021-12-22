@@ -14,6 +14,8 @@ public class Passenger extends Car {
 		int vel = 120 / count;
 		try {
 			move(vel);
+			System.out.println("Move " + count + " humans at " +
+			vel + " km/h");
 		} catch (WrongWheelsException wwe) {
 			System.out.println(wwe);
 		} catch (InsufficientPowerException ipe) {
